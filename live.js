@@ -11,18 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       //ChatWidget.style.display = "block";
    // });
 
-   // Lấy đối tượng của phần tử <a> và ChatWidget
-const chatLink = document.getElementById("helps"); // Tìm thẻ <a> theo thuộc tính title
- // Tìm phần tử ChatWidget
 
-
- chatLink.addEventListener("click", function () {
-  if (ChatWidget.style.display === "block") {
-    ChatWidget.style.display = "none"; // Ẩn nếu đang hiện
-  } else {
-    ChatWidget.style.display = "block"; // Hiện nếu đang ẩn
-  }
-});
 
    
     chatIcon.addEventListener("click", function () {
